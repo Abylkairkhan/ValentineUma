@@ -4,23 +4,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./Styles/yes.css">
-    <!-- Include any additional stylesheets or meta tags here -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <title>Umita</title>
 </head>
 <body>
     <div class="container">
-        <div>
-            <h1 class="header_text">Hoorayy!!!</h1>
+
+        <div class="envelope-wrapper">
+            <div id="envelope" class="close">
+                <div class="front flap"></div>
+                <div class="front pocket"></div>
+                <div class="letter">
+                    <p class="words line1">Ну привет, миножка)</p>
+                    <p class="words line2">Люблю и ценю ♡</p>
+                    <p class="words line3">Love,</p>
+                    <p class="words line4">Abylkairkhan</p>
+                </div>
+                <div class="hearts">
+                    <div class="heart a1"></div>
+                    <div class="heart a2"></div>
+                    <div class="heart a3"></div>
+                </div>
+            </div>
         </div>
+
+        <div class="reset">
+            <button id="open">Открыть</button>
+            <button id="reset">Закрыть</button>
+        </div>
+        <script src="opencard.js"></script>
+
         <div class="gif_container">
             <img src="https://i.gifer.com/Pak.gif" alt="Cute animated illustration" style="margin-top: -60px;">
         </div>
-        <!-- Adjusted position of the text element by 100px -->
-        <p class="text" style="margin-top: -30px;">You're now Prateek's gf</p>
+
+        <div class="paper">
+            <div class="paper-content">
+                <p>Немного опоздал с валентинкой, хотел сделать как можно необычнее</p>
+                <p>После встречи с тобой я сохранил 119 автобус и ДоДо в отдельном</p>
+                <p>месте своего сердца</p>
+                <p>Надеюсь ты будешь меньше игнорить и чаще отвечать ха ха</p>
+                <p>Но в любом случае я буду ждать, любить и бесить тебя вечно</p>
+            </div>
+        </div>
     </div>
-
-    <!-- Note: Positioned at the bottom near the footbar -->
-    <p style="position: fixed; bottom: 10px; left: 50%; transform: translateX(-50%); text-align: center; color: #777;">Congratulations on this special moment! 🎉 Customize this page to capture and celebrate your unique love story. 💑💖</p>
-
-    <!-- Include any external scripts if needed -->
 </body>
 </html>
